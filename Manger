@@ -1,0 +1,11 @@
+
+public interface Manager<T> {
+	
+	T next();
+	T get(String id);
+	void add(String id,T t);
+	void remove(String id);
+	void update(String id,T t);
+	boolean check(String id);
+	
+}
